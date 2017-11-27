@@ -1,10 +1,15 @@
 #include <iostream>
-
+#include <limits>
 using namespace std;
 
 int main() {
   // เขียนโปรแกรมเพิ่ม เพื่อหาขนาดตัวแปรที่กำหนด
    cout << "Size of char : " << sizeof(char) << endl;
+   cout << "Size of signed char : " << sizeof(signed char) << endl;
+   cout << "Size of unsigned char : " << sizeof(unsigned char) << endl;
+   cout << "Size of int : " << sizeof(int) << endl;
+   cout << "Size of signed int : " << sizeof(signed int) << endl;
+   cout << "Size of unsigned int : " << sizeof(unsigned int) << endl;
    cout << "Size of short signed int : " << sizeof(short signed int) << endl;
    cout << "Size of short unsigned int : " << sizeof(short unsigned int) << endl;
    cout << "Size of long int : " << sizeof(long int) << endl;
